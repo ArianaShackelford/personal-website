@@ -51,28 +51,40 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Bodoni Moda', serif;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Abril Fatface', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
+
 }
+
+/* colors
+"black" : #46466A
+"yellow" : #E3B370
+"green" : #969A55
+"white" : #F8FAFA
+"grey" : #B1C0C6
+*/
 
 body{
     width:100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color:#F8FAFA;
+    color: #46466A;
 }
 
 .navigation{
     width:100%;
+    height: 3rem;
     display: flex;
-    align-items: flex-end;
     align-content: space-between;
+    align-items: center;
+    background-color: #B1C0C6;
 }
 
 ul {
@@ -83,5 +95,17 @@ ul {
   }
 
 li{
-    margin: 1rem;
+    float: left;
 }
+
+li a{
+    text-decoration: none;
+    color: #46466A;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+li a:hover {
+    background-color: #E3B370;
+  }
