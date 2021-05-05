@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5 {
 */
 
 body{
-    width:100%;
+    width:100vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -109,3 +109,40 @@ li a{
 li a:hover {
     background-color: #E3B370;
   }
+
+.header{
+    width: 100%;
+    display: flex;
+    border-bottom: .1em #B1C0C6 solid;
+
+}
+.name_and_title{
+    width: 70%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.name_and_title h1{
+    font-size: 4rem;
+}
+
+.photo{
+    width: 30%;
+    height: auto;
+    margin: 3rem;
+    float: right;
+    border-radius: 2%;
+}
+
+.about-me{
+    background-color:#C3C596 ;
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    line-height: 2;
+}
