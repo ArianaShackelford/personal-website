@@ -90,18 +90,18 @@ body{
     background-color: #B1C0C6;
 }
 
-ul {
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
 
-li{
+.navigation ul li{
     float: left;
 }
 
-li a{
+.navigation li a{
     text-decoration: none;
     color: #46466A;
     text-align: center;
@@ -109,7 +109,7 @@ li a{
 
 }
 
-li a:hover {
+.navigation li a:hover {
     background-color: #E3B370;
   }
 
